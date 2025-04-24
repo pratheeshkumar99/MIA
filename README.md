@@ -21,8 +21,6 @@ The key components of my implementation following Shokri's approach include:
 
 The implementation consists of several key components:
 
-The implementation consists of several key components:
-
 - **data_synthesis.py**: Implementation of Algorithm 1 from the paper, which generates synthetic data when direct sampling from the target distribution isn't possible.
 
 - **shadow_models.py**: Contains the shadow model implementation that mimics the target model's behavior. These shadow models generate the training data needed for the attack models.
